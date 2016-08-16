@@ -1,14 +1,20 @@
-h2 {
-  background: pink; }
+* {
+  box-sizing: border-box; }
+
+h1 {
+  font-size: 40px; }
 
 h2 {
-  background: pink; }
+  font-size: 32px; }
 
-body {
-  background: purple; }
+h3 {
+  font-size: 24px; }
 
-h2 {
-  background: pink; }
+h4 {
+  font-size: 18px; }
 
-h2 {
-  background: pink; }
+p {
+  font-size: 16px; }
+
+.button h2, .button h3, .button p {
+  font-size: 20px; }
