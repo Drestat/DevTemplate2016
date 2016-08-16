@@ -4,6 +4,7 @@
   "description": "template to start dev projects",
   "dependencies": {},
   "devDependencies": {
+    "clean-css": "^3.4.19",
     "jshint": "^2.9.2",
     "mocha": "^3.0.2",
     "uglify-js": "^2.7.1"
@@ -12,6 +13,8 @@
     "info": "echo 'template to start dev projects'",
     "lint": "echo '=> linting' && jshint assets/scripts/*.js",
     "test": "echo '=> testing' && mocha test/",
+    "minify:js": "echo '=> minify:js' && uglifyjs assets/scripts/main.js -o dist/public/js/main.min.js",
+    "minify:css": "echo '=> minify:css' && cleancss assets/css/main.css -o dist/public/css/main.min.css",
     "pretest": "npm run lint -s"
   },
   "author": "SitePoint",
