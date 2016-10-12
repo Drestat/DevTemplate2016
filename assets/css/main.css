@@ -17,6 +17,14 @@ p {
   font-size: 16px; }
 
 .button h2, .button h3, .button p {
+<<<<<<< HEAD
   font-size: 20px; 
   transform: 2s;
 }
+=======
+  font-size: 20px; }
+
+h2 {
+  color: pink;
+  font-size: 42px; }
+>>>>>>> b81d39a82d06154dbd6074deebc1aaf5a344e08e
