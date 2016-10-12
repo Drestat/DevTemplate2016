@@ -18,5 +18,6 @@ p {
 
 .button h2, .button h3, .button p {
   font-size: 20px; 
-  transform: 2s;
+  -webkit-transform: 2s; 
+          transform: 2s;
 }
